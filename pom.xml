@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
    <modelVersion>4.0.0</modelVersion>
    <groupId>org.mule.modules</groupId>
    <artifactId>mule-module-mtf</artifactId>
    <packaging>jar</packaging>
    <name>Mule MTF Module</name>
-   <version>1.0-SNAPSHOT</version>
+   <version>1.0</version>
    <description>Mule Testing Framework</description>
 
 <properties>
@@ -227,17 +225,17 @@
     </issueManagement>
 
     <scm>
-        <connection>scm:svn:http://svn.muleforge.org/mtf/</connection>
-        <developerConnection>scm:svn:https://svn.muleforge.org/mtf/</developerConnection>
+        <connection>scm:svn:http://svn.muleforge.org/mtf/tags/mule-module-mtf-1.0</connection>
+        <developerConnection>scm:svn:https://svn.muleforge.org/mtf/tags/mule-module-mtf-1.0</developerConnection>
         <tag>HEAD</tag>
-        <url>http://svn.mtf.muleforge.org/</url>
+        <url>http://svn.mtf.muleforge.org/tags/mule-module-mtf-1.0</url>
     </scm>
 
 
     <ciManagement>
         <system>Bamboo</system>
         <url>http://bamboo.muleforge.org/browse/MTF-FORGE</url>
-        <notifiers/>
+        <notifiers />
     </ciManagement>
 
     <distributionManagement>
