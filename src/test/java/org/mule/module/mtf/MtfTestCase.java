@@ -17,7 +17,7 @@ public class MtfTestCase extends FunctionalTestCase
     protected String getConfigResources()
     {
         //TODO You'll need to edit this file to make the test applicable to your module
-        return "xxx-functional-test-config.xml";
+        return "mtf-functional-test-config.xml";
     }
 
     public void testXxx() throws Exception
